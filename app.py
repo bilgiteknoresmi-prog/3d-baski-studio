@@ -190,6 +190,7 @@ BASE_HTML = """
 <html lang="tr">
 <head>
   <meta charset="utf-8" />
+  <meta name="google-site-verification" content="HBVllIojMaoa8XXWm9ly8JCE22uVT9xKETtIDWpegmA" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ title }}</title>
   <style>
@@ -759,3 +760,4 @@ def admin_message_delete():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", "5000"))
     app.run(host="0.0.0.0", port=port, debug=False)
+
