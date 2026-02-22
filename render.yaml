@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: 3d-baski-site
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: ADMIN_PASS
+        sync: false
+      - key: WHATSAPP_NUMBER
+        sync: false
