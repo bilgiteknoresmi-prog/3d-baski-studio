@@ -147,7 +147,7 @@ BASE_HTML = """
 <html lang="tr">
 <head>
   <meta charset="utf-8" />
-  <meta name="google-site-verification" content="abc123XYZ" />
+  <meta name="google-site-verification" content="HBVllIojMaoa8XXWm9ly8JCE22uVT9xKETtIDWpegmA" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ title }}</title>
   <style>
@@ -862,3 +862,4 @@ print("WHATSAPP_NUMBER:", os.environ.get("WHATSAPP_NUMBER"))
 if __name__ == "__main__":
 
     app.run(host="127.0.0.1", port=5000, debug=True)
+
